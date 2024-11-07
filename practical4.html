@@ -46,14 +46,16 @@
                 <button type="submit" class="btn btn-primary mb-3">Confirm answer</button>
               </div>
             </form>
-            <label for="exampleDataList" class="form-label">Which of the following social media do you use the most</label>
-            <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Type to search...">
-            <datalist id="datalistOptions">
-              <option value="Twitter">
-              <option value="Instagram">
-              <option value="Facebook">
-              <option value="Linkedin">
-              <option value="Whatsapp">
-            </datalist>
+            <p> Which of the following social media do you use the most?</p>
+            <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+              <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
+              <label class="btn btn-outline-primary" for="btnradio1">Facebook</label>
+            
+              <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+              <label class="btn btn-outline-primary" for="btnradio2">Whatsapp</label>
+            
+              <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
+              <label class="btn btn-outline-primary" for="btnradio3">Twitter</label>
+            </div>
     </head>
 </html>
